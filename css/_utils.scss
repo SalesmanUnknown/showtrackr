@@ -1,0 +1,56 @@
+//font
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+
+//variables
+$mainPurp: #540cfa;
+$mainFont: "Source Sans Pro";
+//reset
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+body {
+  font-family: $mainFont;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+//selection
+::selection {
+  background: $mainPurp;
+  color: white;
+  opacity: 1;
+}
+
+//general stuff
+a {
+  font-family: $mainFont;
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
+
+//absolute rectangles
+.rectangles {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+//twitter icon
+.twitter {
+  width: 18px;
+  height: 14px;
+  opacity: 0.3;
+}

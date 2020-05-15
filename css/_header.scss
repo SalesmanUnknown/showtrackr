@@ -1,0 +1,87 @@
+header {
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $mainFont;
+  .logo {
+    padding-left: 170px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.63px;
+    h1 {
+      font-size: 18px;
+    }
+    span {
+      color: $mainPurp;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  ul > li > a {
+    padding-left: 60px;
+  }
+
+  li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.6px;
+  }
+
+  .nav li {
+    transition: 0.4s ease;
+    &:hover {
+      color: $mainPurp;
+    }
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.6px;
+  }
+
+  .log {
+    padding-right: 170px;
+    .login {
+      padding-right: 30px;
+    }
+  }
+
+  .login {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: #000000;
+    width: 102px;
+    height: 32px;
+    transition: 0.4s ease;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.6px;
+    &:hover {
+      color: $mainPurp;
+    }
+  }
+
+  .getStarted {
+    background-color: $mainPurp;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(60, 9, 179, 0.3);
+    width: 102px;
+    height: 32px;
+    border: none;
+    color: #ffffff;
+    transition: 0.5s ease;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    &:hover {
+      background-color: #4609d6;
+    }
+  }
+  z-index: 1000;
+}

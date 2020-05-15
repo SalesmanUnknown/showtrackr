@@ -1,0 +1,149 @@
+//section 1
+.p1 {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  min-height: 100vh;
+  .text {
+    padding: 150px 0px 0px 170px;
+    font-family: $mainFont;
+    h1 {
+      color: black;
+      font-size: 70px;
+      font-weight: "900";
+      line-height: 72px;
+      text-align: left;
+      padding-bottom: 20px;
+      font-weight: 900;
+    }
+    p {
+      color: black;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: left;
+
+      padding-bottom: 30px;
+    }
+    input {
+      background-color: white;
+      border: 0.5px solid rgba(0, 0, 0, 0.05);
+      border-radius: 4px 0px 0px 4px;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05),
+        0 6px 12px 0 rgba(0, 0, 0, 0.05);
+      width: 450px;
+      height: 53px;
+      padding: 15px 15px 15px 15px;
+      &::placeholder {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        opacity: 0.300000011920929;
+      }
+      transition: 0.2s ease;
+      &:focus {
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+          0 6px 12px 0 rgba(0, 0, 0, 0.1);
+        button {
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+            0 6px 12px 0 rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+    button {
+      width: 141px;
+      height: 53px;
+      background-color: $mainPurp;
+      border-radius: 0px 5px 5px 0px;
+      border: none;
+      margin-left: -10px;
+      color: white;
+      font-weight: bold;
+      transition: 0.5s ease;
+      &:hover {
+        background-color: #4609d6;
+      }
+      a {
+        font-family: $mainFont;
+      }
+    }
+  }
+  .brands {
+    padding-top: 90px;
+    p {
+      font-family: $mainFont;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      line-height: 15px;
+      opacity: 0.300000011920929;
+      text-align: left;
+      text-transform: uppercase;
+      padding-bottom: 19.33px;
+    }
+    ul > li {
+      list-style: none;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    ul > li {
+      padding-right: 37.45px;
+    }
+
+    .netflix {
+      width: 92.42px;
+      height: 25px;
+      opacity: 0.3;
+    }
+    .apple {
+      width: 26px;
+      height: 30px;
+      opacity: 0.3;
+      margin-top: -3.5px;
+    }
+    .android {
+      width: 25.57px;
+      height: 30px;
+      opacity: 0.3;
+      margin-top: -3.5px;
+    }
+    .windows {
+      width: 30px;
+      height: 30px;
+      opacity: 0.3;
+      margin-top: -3.5px;
+    }
+    .synology {
+      width: 96.1px;
+      height: 25px;
+      opacity: 0.3;
+    }
+  }
+  .float-container {
+    position: relative;
+    display: inline;
+  }
+  .float-container input {
+    border: none;
+    outline: 0;
+  }
+  label {
+    top: -15px;
+    left: 15px;
+    position: absolute;
+    color: $mainPurp;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    font-family: $mainFont;
+  }
+  .picture {
+    padding-left: 267px;
+    width: 310px;
+    height: 620px;
+    padding-top: 100px;
+  }
+}

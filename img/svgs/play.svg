@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#9C09DB" offset="0%"></stop>
+            <stop stop-color="#1C0FD7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M17.9471964,-2.53875649e-15 L32.0528036,-1.08858006e-15 C38.2934348,6.32496366e-16 40.5564384,0.649779278 42.8379199,1.86992893 C45.1194014,3.09007857 46.9099214,4.88059859 48.1300711,7.16208008 C49.3502207,9.44356156 50,11.7065652 50,17.9471964 L50,32.0528036 C50,38.2934348 49.3502207,40.5564384 48.1300711,42.8379199 C46.9099214,45.1194014 45.1194014,46.9099214 42.8379199,48.1300711 C40.5564384,49.3502207 38.2934348,50 32.0528036,50 L17.9471964,50 C11.7065652,50 9.44356156,49.3502207 7.16208008,48.1300711 C4.88059859,46.9099214 3.09007857,45.1194014 1.86992893,42.8379199 C0.649779278,40.5564384 1.33465826e-15,38.2934348 -2.29706042e-15,32.0528036 L-1.33027613e-15,17.9471964 C7.72928744e-16,11.7065652 0.649779278,9.44356156 1.86992893,7.16208008 C3.09007857,4.88059859 4.88059859,3.09007857 7.16208008,1.86992893 C9.44356156,0.649779278 11.7065652,1.47509063e-15 17.9471964,-2.53875649e-15 Z" id="path-2"></path>
+        <filter x="-14.0%" y="-10.0%" width="128.0%" height="128.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.141176471   0 0 0 0 0.031372549   0 0 0 0 0.501960784  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dribbble" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-291.000000, -1278.000000)">
+            <g id="Features" transform="translate(170.000000, 915.000000)">
+                <g id="Group-9" transform="translate(0.000000, 365.000000)">
+                    <g id="Group-8" transform="translate(125.000000, 0.000000)">
+                        <g id="Rectangle-9">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="play" transform="translate(18.000000, 15.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M9.43156714,2.02304999 L18.3505943,16.9015735 C18.6532636,17.4064798 18.4815102,18.0565563 17.9669723,18.35356 C17.8008652,18.449441 17.6116552,18.5 17.418941,18.5 L-0.419113253,18.5 C-1.01607047,18.5 -1.5,18.0251291 -1.5,17.4393463 C-1.5,17.2502393 -1.44847651,17.0645712 -1.35076651,16.9015735 L7.56826063,2.02304999 C7.87093,1.5181436 8.53340733,1.3496053 9.0479452,1.64660903 C9.20635315,1.73804587 9.33838606,1.86760726 9.43156714,2.02304999 Z" id="Triangle" transform="translate(8.500000, 10.000000) rotate(90.000000) translate(-8.500000, -10.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

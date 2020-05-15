@@ -1,0 +1,50 @@
+//absolute
+.rectangle1 {
+  width: 37vw;
+  height: 52vh;
+  transform: rotate(45deg);
+  opacity: 0.9;
+  border-radius: 40px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(146deg, #9c09db, #1c0fd7);
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  right: -10%;
+  top: 0px;
+}
+
+.rectangle2 {
+  width: 36vw;
+  height: 52vh;
+  transform: rotate(65deg);
+  opacity: 0.9;
+  border-radius: 40px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(146deg, #f2c314, #fc3832 100%);
+  position: absolute;
+  overflow: hidden;
+  right: -10%;
+  top: -30px;
+  z-index: -2;
+}
+
+.rectangle3 {
+  width: 13vw;
+  height: 46vh;
+  transform: rotate(45deg);
+  opacity: 0.9;
+  border-radius: 40px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(135deg, #32fbfc 0%, #3214f2 100%);
+  position: absolute;
+  overflow: hidden;
+  top: 635.87px;
+  left: -220px;
+}

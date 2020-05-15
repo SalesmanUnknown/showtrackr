@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dashboard</title>
+    <g id="Dribbble" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-187.000000, -2436.000000)" fill="#540CFA" fill-rule="nonzero">
+            <g id="App-Showcase" transform="translate(170.000000, 2067.000000)">
+                <g id="Group-15" transform="translate(0.000000, 352.000000)">
+                    <g id="Group-14">
+                        <g id="dashboard" transform="translate(17.000000, 17.000000)">
+                            <path d="M7.1428571,20 L18.5714286,20 C19.3571429,20 20,19.3571429 20,18.5714286 L20,7.1428571 L7.1428571,7.1428571 L7.1428571,20 Z M18.5714286,0 L1.4285714,0 C0.6428571,0 0,0.6428571 0,1.4285714 L0,5.7142857 L20,5.7142857 L20,1.4285714 C20,0.6428571 19.3571429,0 18.5714286,0 Z M0,18.5714286 C0,19.3571429 0.6428571,20 1.4285714,20 L5.7142857,20 L5.7142857,7.1428571 L0,7.1428571 L0,18.5714286 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
