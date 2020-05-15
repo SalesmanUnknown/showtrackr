@@ -1,7 +1,7 @@
 .p4 {
   min-height: 88vh;
   background-color: black;
-  grid-template-columns: 50% 20% 20% 10%;
+  grid-template-columns: 50% 18.5% 18.5% 30%;
   grid-template-areas: "text test1 test";
   display: grid;
   .avatar {
@@ -40,6 +40,7 @@
       padding-bottom: 20px;
     }
     button {
+      font-family: $mainFont;
       background-color: $mainPurp;
       border-radius: 4px;
       box-shadow: 0 1px 2px 0 rgba(32, 5, 97, 0.08),

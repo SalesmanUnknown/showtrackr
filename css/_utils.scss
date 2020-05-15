@@ -9,6 +9,7 @@ $mainFont: "Source Sans Pro";
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+  font-family: $mainFont;
 }
 
 ul > li {
@@ -17,6 +18,7 @@ ul > li {
 
 body {
   font-family: $mainFont;
+  -webkit-font-smoothing: antialiased;
 }
 
 img {

@@ -19,21 +19,32 @@
     p {
       color: black;
       font-size: 21px;
-      font-weight: 400;
+      font-weight: 300;
       line-height: 32px;
       text-align: left;
 
-      padding-bottom: 30px;
+      padding-bottom: 60px;
     }
-    input {
+    form {
+      display: inline-block;
+      margin-top: 4px;
+      input {
+        float: left;
+      }
+      button {
+        float: left;
+      }
+    }
+    input[type="email"] {
       background-color: white;
       border: 0.5px solid rgba(0, 0, 0, 0.05);
-      border-radius: 4px 0px 0px 4px;
+      border-radius: 0px 5px 5px 0px;
       box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05),
         0 6px 12px 0 rgba(0, 0, 0, 0.05);
       width: 450px;
-      height: 53px;
+      height: 49px;
       padding: 15px 15px 15px 15px;
+      font-size: 18px;
       &::placeholder {
         font-size: 16px;
         font-weight: 400;
@@ -48,23 +59,38 @@
           box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
             0 6px 12px 0 rgba(0, 0, 0, 0.1);
         }
+        outline: none;
       }
     }
     button {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
       width: 141px;
-      height: 53px;
+      height: 49px;
+      margin-left: -7px;
       background-color: $mainPurp;
       border-radius: 0px 5px 5px 0px;
       border: none;
-      margin-left: -10px;
       color: white;
       font-weight: bold;
       transition: 0.5s ease;
+      padding: 0px;
       &:hover {
         background-color: #4609d6;
       }
       a {
         font-family: $mainFont;
+        font-weight: 600;
+      }
+      &:focus {
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+          0 6px 12px 0 rgba(0, 0, 0, 0.1);
+        button {
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+            0 6px 12px 0 rgba(0, 0, 0, 0.1);
+        }
+        outline: none;
       }
     }
   }
@@ -122,26 +148,16 @@
       opacity: 0.3;
     }
   }
-  .float-container {
-    position: relative;
-    display: inline;
-  }
-  .float-container input {
-    border: none;
-    outline: 0;
-  }
   label {
-    top: -15px;
-    left: 15px;
-    position: absolute;
     color: $mainPurp;
-    font-size: 12px;
+    font-size: 18px;
+    padding-left: 4px;
     font-weight: 700;
     line-height: 15px;
     font-family: $mainFont;
   }
   .picture {
-    padding-left: 267px;
+    padding-left: 240px;
     width: 310px;
     height: 620px;
     padding-top: 100px;

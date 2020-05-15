@@ -6,6 +6,9 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: $mainFont;
+  position: fixed;
+  top: 0;
+  width: 100%;
   .logo {
     padding-left: 170px;
     font-size: 18px;
@@ -77,8 +80,9 @@ header {
     color: #ffffff;
     transition: 0.5s ease;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 18px;
+    padding-bottom: 2px;
     &:hover {
       background-color: #4609d6;
     }
